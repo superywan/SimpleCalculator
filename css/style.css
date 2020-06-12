@@ -4,11 +4,11 @@ body {
 }
 
 .js-calculator-keys {
-  margin: 230px auto;
+  margin: 300px auto;
   padding: 10px 10px;
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 20%;
   height: 270px;
   background-color: black;
   border-radius: 25px;
@@ -85,4 +85,10 @@ body {
 
 .oper:active {
   background-color: #ff9f43;
+}
+
+@media only screen and (max-width: 800px) {
+  .js-calculator-keys {
+    width: 60%;
+  }
 }
